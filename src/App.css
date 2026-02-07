@@ -1,0 +1,127 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* App layout */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  background-color: #4a6cf7;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Main section */
+.section {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.section h1 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Table */
+table {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #f0f2ff;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  color: #333;
+}
+
+tbody tr {
+  cursor: pointer;
+}
+
+tbody tr:hover {
+  background-color: #eef1ff;
+}
+
+/* Footer */
+.footer {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 10px;
+  font-size: 13px;
+  color: #555;
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Popup box */
+.popup {
+  background: white;
+  width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Popup header */
+.popupHeader {
+  background-color: #4a6cf7;
+  padding: 10px;
+  text-align: right;
+}
+
+.popupHeader button {
+  background: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Popup content */
+.popupSection {
+  padding: 15px;
+  text-align: left;
+}
+
+.popupSection p {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.popupSection span {
+  font-weight: bold;
+}
